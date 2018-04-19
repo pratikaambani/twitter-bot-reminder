@@ -21,4 +21,4 @@ var tweet = function() {
 tweet();
 
 // re-tweet every 60 minutes
-setInterval(tweet, 1000);
+setInterval(tweet, 3600000);
