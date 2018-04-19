@@ -4,16 +4,16 @@
   "description": "Twitter Bot, will remind me to drink water",
   "main": "bot.js",
   "scripts": {
-	"start":"node bot.js",
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pre-commit": [
     "format"
-  ],  
+  ],
   "author": "Pratik Ambani <pratikaambani@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "node-datetime": "^2.0.6",
+    "moment-timezone": "^0.5.16",
     "twit": "^2.2.9"
   },
   "keywords": [
